@@ -1,5 +1,6 @@
-# Mock E‑Com Cart
+# Mock E‑Com 
 
+First you have to run Backend and then run the Frontend on http://localhost:3000.
 
 ## Run backend
 cd backend
