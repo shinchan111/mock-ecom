@@ -1,0 +1,15 @@
+body{font-family:Arial,Helvetica,sans-serif;margin:0;padding:0;background:#f7f7f7}
+.wrap{max-width:1100px;margin:0 auto;padding:16px}
+header h1{margin:0 0 12px}
+main{display:grid;grid-template-columns:1fr 360px;gap:20px}
+.grid{display:grid;grid-template-columns:repeat(2,1fr);gap:12px}
+.card{background:#fff;padding:12px;border-radius:8px;box-shadow:0 1px 4px rgba(0,0,0,0.06)}
+.card .title{font-weight:600}
+.card .price{margin:8px 0}
+.card button{padding:8px 10px;border-radius:6px;border:0;background:#0b76ef;color:#fff}
+.cart{background:#fff;padding:12px;border-radius:8px}
+.cart-table{width:100%;border-collapse:collapse}
+.cart-table th,.cart-table td{padding:6px 8px;text-align:left}
+.checkout input{display:block;width:100%;padding:8px;margin:6px 0}
+.checkout button{padding:8px 10px;width:100%;border:0;background:#07b;}
+@media(max-width:900px){main{grid-template-columns:1fr} .grid{grid-template-columns:repeat(1,1fr)}}

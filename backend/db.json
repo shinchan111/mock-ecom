@@ -1,0 +1,30 @@
+{
+  "products": [
+    {
+      "id": "p1",
+      "name": "Basic T-shirt",
+      "price": 299
+    },
+    {
+      "id": "p2",
+      "name": "Sneakers",
+      "price": 1999
+    },
+    {
+      "id": "p3",
+      "name": "Coffee Mug",
+      "price": 149
+    },
+    {
+      "id": "p4",
+      "name": "Backpack",
+      "price": 1299
+    },
+    {
+      "id": "p5",
+      "name": "Headphones",
+      "price": 2499
+    }
+  ],
+  "cart": []
+}
